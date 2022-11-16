@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places of The world</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="tourism.html">TOURISM</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+</section>
+
+<!---contact us-->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.00771263271!2d76.76352895!3d30.735081450000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1660629078252!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+
+        <div class="contact-col">
+            <div>
+                <span class="fa fa-home"></span>
+                <span>
+                    <h5>XYZ Road, Abc building</h5>
+                    <p>Chandigarh</p>
+                </span>
+            <div>
+                <span class="fa fa-phone"></span> 
+                <span>
+                    <h5>+91 1234567890</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <span class="fa fa-envelope-o"></span>
+                <span>
+                    <h5>info@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>   
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="text" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter the country you want to visit" required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                
+                </form>
+
+            </div>
+
+
+
+            
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>we inform you about the tourist places you would want to visit if you love history</p>
+    <div class="icons">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+                <span class="fa fa-facebook"></span>
+                <span class="fa fa-twitter"></span>
+                <span class="fa fa-instagram"></span>
+                <span class="fa fa-linkedin"></span>
+                
+    </div>
+
+    <p>Made by <span class="fa fa-heart-o"></span> Harshil Madaan</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------javascript for toggle menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+
+</script>
+
+</body>
+</html>
+
